@@ -53,7 +53,7 @@ Important to know:
     }
 * Renders:
     1. A `<button>` that toggles `on` state when clicked
-    2. When `on` is true, a _conditionally rendered_ `<span>` element that shows
+    2. When `on` is true, a _conditionally rendered_ `<span>` element shows
     the color name and sets its `backgroundColor` style dynamically
     to the name of the color.
 
@@ -99,6 +99,7 @@ These need to include tests:
     * actions: `COLORS_LOAD`, `COLORS_ADD`
 * `selectedColor`
     * holds `string` name of the currently selected color
+    * defaults to `'white'`
     * actions: `SELECT_COLOR`
 
 ### Action Creators
