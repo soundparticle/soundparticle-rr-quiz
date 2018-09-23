@@ -22,4 +22,17 @@ describe('Color reducers', () => {
 
     expect(state).toBe(payload);
   });
+
+  it('adds a color', () => {
+    const color1 = 'red';
+    const color2 = 'white';
+    const color3 = 'blue';
+
+    const state = colors([color1, color2], {
+      type: COLORS_ADD,
+      payload: color3
+    });
+
+    expect(state).toEqual([color1, color2, color3]);
+  });
 });
