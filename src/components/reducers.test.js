@@ -1,8 +1,9 @@
 import {
   colors,
+  selectedColor,
   COLORS_LOAD,
   COLORS_ADD,
-  SELECT_COLOR
+  // SELECT_COLOR
 } from './reducers';
 
 describe('Color reducers', () => {
@@ -35,4 +36,14 @@ describe('Color reducers', () => {
 
     expect(state).toEqual([color1, color2, color3]);
   });
+
+});
+
+describe('selectedColor reducers', () => {
+  
+  it('defaults to color white', () => {
+    const state = selectedColor(undefined, 'white');
+    expect(state).toEqual('white');
+  });
+
 });

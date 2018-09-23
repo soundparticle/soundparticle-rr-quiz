@@ -26,5 +26,7 @@ export function selectedColor(state = 'white', { type, payload }) {
       return [...state,
         payload
       ];
+    default:
+      return state;
   }
 }
