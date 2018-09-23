@@ -23,7 +23,7 @@ that control the color of the bulb.
 
 It might look like this:
 
-<img alt="rainbow lightbulb app" src="example.png" width="500">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/yP5o3OImPaw" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 Important to know:
 
