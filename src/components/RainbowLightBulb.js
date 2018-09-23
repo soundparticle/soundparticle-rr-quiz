@@ -16,9 +16,9 @@ export class RainbowLightBulb extends Component {
     color: PropTypes.array
   };
   
-  // componentDidMount() {
-  //   this.props.load();
-  // }
+  componentDidMount() {
+    this.props.load();
+  }
 
   handleComplete = color => {
     const { selectedColor } = this.props;
@@ -27,11 +27,11 @@ export class RainbowLightBulb extends Component {
   };
 
 
-  // handleSubmit = () => {
-  //   const { on } = this.props;
-  //   this.props.handleSubmit({ on: true });
+  handleSubmit = () => {
+    const { on } = this.props;
+    this.props.handleSubmit({ on: true });
     
-  // };
+  };
   render() {
     
     const { editing } = this.state;
@@ -48,8 +48,7 @@ export class RainbowLightBulb extends Component {
 }
 
 export default connect(
-  state => (
-  null,
+  state => ({ color: getSelectedColor(state) },
   
   { selectedColor }
 
