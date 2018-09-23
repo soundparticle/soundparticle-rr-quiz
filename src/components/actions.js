@@ -1,6 +1,6 @@
 
 import { COLORS_LOAD, COLORS_ADD, SELECT_COLOR } from './reducers';
-import { loadColors, addCategory } from '../services/api';
+import { loadColors, addColor } from '../services/api';
 export const load = () => ({
   type: COLORS_LOAD,
   payload: loadColors()

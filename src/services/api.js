@@ -1,6 +1,5 @@
 import { post, get } from './request';
 
-// const URL = 'https://budget-tracker-5bf52.firebaseio.com/';
 const URL = '/api';
 const COLORS_URL = `${URL}/colors`;
 
@@ -14,7 +13,7 @@ const COLORS_URL = `${URL}/colors`;
 // };
 
 export const loadColors = () => get(COLORS_URL);
-export const postColor = data => post(`${COLORS_URL}`, data);
+export const addColor = data => post(`${COLORS_URL}`, data);
 
 // {
 //   return get(`${COLORS_URL}.json`)
