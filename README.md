@@ -21,9 +21,7 @@ Follow the expect design specified.
 This is a rainbow lightbulb app. It has a color chooser and an on/off switch
 that control the color of the bulb.
 
-It might look like this:
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/yP5o3OImPaw" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+It might look like [this](https://youtu.be/yP5o3OImPaw).
 
 Important to know:
 
