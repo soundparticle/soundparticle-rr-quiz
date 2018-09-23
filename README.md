@@ -25,10 +25,9 @@ It might look like [this](https://youtu.be/yP5o3OImPaw).
 
 Important to know:
 
-* The project already has an `App.js`. You should only need to uncomment the two components, otherwise **don't modify this file**. There is no state work that needs
-to happen in `App.js` 
 * Other than `App.js`, you need to create the rest of the components as specified below
-* You will need to setup redux including `store.js` (you do not need any middleware) and setting up the `<Provider>` component in `index.js`
+* The project already has an `App.js`. You should only need to uncomment the two components, otherwise **don't modify this file**. There is no state work that needs to happen in `App.js` 
+* You _will_ need to setup redux including `store.js` (you do not need any middleware) and setting up the `<Provider>` component in `index.js`
 * Follow the technical requirements and specifications below
 
 ## Components
