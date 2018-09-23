@@ -1,5 +1,5 @@
 
-import { COLORS_LOAD, COLORS_ADD, SELECT_COLOR } from './reducers';
+import { COLORS_LOAD, COLORS_ADD, /*SELECT_COLOR*/ } from './reducers';
 import { loadColors, addColor } from '../services/api';
 export const load = () => ({
   type: COLORS_LOAD,
