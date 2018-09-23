@@ -14,6 +14,8 @@ export function colors(state = [], { type, payload  }) {
       return [...state,
         payload
       ];
+    default:
+      return state;
   }
 }
 
