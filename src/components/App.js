@@ -15,8 +15,8 @@ class App extends Component {
           <h1>React &amp; Redux Quiz</h1>
         </header>
         <main>
-          <RainbowLightBulb/>
-          <ColorChooser/>
+          {/* <RainbowLightBulb/> */}
+          {/* <ColorChooser/> */}
         </main>
       </Fragment>
     );
